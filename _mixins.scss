@@ -1,0 +1,9 @@
+@mixin responsiveSize() {
+  @media (width<=768px) {
+    /* Styles that are always applied */
+    @content; /* Placeholder for additional styles */
+  }
+  @media (width<=375px) {
+    @content;
+  }
+}
