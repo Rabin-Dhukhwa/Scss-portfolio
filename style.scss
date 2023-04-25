@@ -160,6 +160,11 @@ body {
           padding-left: 1rem;
         }
       }
+
+      #check:checked ~ ul {
+        left: calc(100% - 15rem);
+        // left: 70%;
+      }
     }
   }
 }

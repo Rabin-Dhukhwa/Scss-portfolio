@@ -4,6 +4,9 @@
     @content; /* Placeholder for additional styles */
   }
   @media (width<=375px) {
+    // body {
+    //   background: green;
+    // }
     @content;
   }
 }
