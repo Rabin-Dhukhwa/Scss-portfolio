@@ -1,12 +1,63 @@
 @mixin responsiveSize() {
-  @media (width<=768px) {
+  @media (width<=940px) {
     /* Styles that are always applied */
+    .section1 {
+      .hero {
+        .left {
+          //   max-width: 50vw;
+          img {
+            width: 80%;
+            transition: all 1s;
+
+            // height: 60% !important;
+          }
+        }
+        .right {
+          //   max-width: 50vw;
+          div {
+            .name {
+              font-size: 3rem !important;
+              transition: all 1s;
+            }
+            .tag {
+              font-size: 1.5rem !important;
+              transition: all 1s;
+            }
+          }
+        }
+      }
+    }
     @content; /* Placeholder for additional styles */
   }
-  @media (width<=375px) {
+  @media (width<=550px) {
     // body {
     //   background: green;
     // }
+    .section1 {
+      .hero {
+        .left {
+          //   max-width: 50vw;
+          img {
+            width: 70%;
+            // height: 60% !important;
+          }
+        }
+        .right {
+          //   max-width: 50vw;
+          div {
+            .name {
+              font-size: 2rem !important;
+            }
+            .tag {
+              font-size: 1.1rem !important;
+            }
+          }
+          button {
+            padding: 0.3rem 0.5rem !important;
+          }
+        }
+      }
+    }
     @content;
   }
 }

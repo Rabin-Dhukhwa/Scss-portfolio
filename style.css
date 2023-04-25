@@ -116,8 +116,20 @@ body {
   transition: all 0.5s;
 }
 
-@media (width <= 768px) {
+@media (width <= 940px) {
   /* Styles that are always applied */
+  .section1 .hero .left img {
+    width: 80%;
+    transition: all 1s;
+  }
+  .section1 .hero .right div .name {
+    font-size: 3rem !important;
+    transition: all 1s;
+  }
+  .section1 .hero .right div .tag {
+    font-size: 1.5rem !important;
+    transition: all 1s;
+  }
   .primary-header .right .menu-icon {
     display: block;
   }
@@ -140,7 +152,19 @@ body {
   }
   /* Placeholder for additional styles */
 }
-@media (width <= 375px) {
+@media (width <= 550px) {
+  .section1 .hero .left img {
+    width: 70%;
+  }
+  .section1 .hero .right div .name {
+    font-size: 2rem !important;
+  }
+  .section1 .hero .right div .tag {
+    font-size: 1.1rem !important;
+  }
+  .section1 .hero .right button {
+    padding: 0.3rem 0.5rem !important;
+  }
   .primary-header .right .menu-icon {
     display: block;
   }
