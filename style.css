@@ -42,6 +42,12 @@ ul {
   font-weight: bolder;
 }
 
+.wrapper {
+  background: var(--body-bg);
+  min-height: 100vh;
+  color: var(--text-color);
+}
+
 .dark-mode-checkbox:checked + .wrapper {
   --body-bg: var(--dark-bg);
   --text-color: var(--dark-text-color);
@@ -130,6 +136,10 @@ body {
     font-size: 1.5rem !important;
     transition: all 1s;
   }
+  .section2 .info-container {
+    max-width: 95% !important;
+    transition: all 0.5s ease-out;
+  }
   .primary-header .right .menu-icon {
     display: block;
   }
@@ -164,6 +174,19 @@ body {
   }
   .section1 .hero .right button {
     padding: 0.3rem 0.5rem !important;
+  }
+  .section2 .info-container {
+    max-width: 80% !important;
+    border-radius: 50px !important;
+    transition: all 0.5s ease-out;
+  }
+  .section2 .info-container .info-lists {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+  .section2 .info-container .info-lists .info-divider {
+    display: none;
   }
   .primary-header .right .menu-icon {
     display: block;
@@ -236,4 +259,48 @@ body {
 }
 .section1 .hero .right button a i {
   color: var(--color-yellow);
+}
+
+.section2 {
+  margin: 7rem 0;
+}
+.section2 .info-container {
+  max-width: 80%;
+  margin: auto;
+  padding: 2rem;
+  min-height: 7rem;
+  border: 2px solid var(--border-color);
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .info-container .info-lists {
+  width: 100%;
+  color: var(--text-color);
+  justify-content: space-around;
+  align-items: center;
+}
+.section2 .info-container .info-lists .info-content .icon-container {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--color-yellow);
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.section2 .info-container .info-lists .info-content .icon-container i {
+  font-size: 1.4rem;
+}
+.section2 .info-container .info-lists .info-content span h5 {
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.section2 .info-container .info-lists .info-content span p {
+  color: var(--color-yellow);
+}
+.section2 .info-container .info-lists .info-divider {
+  width: 2px;
+  height: 35px;
+  background: grey;
 }/*# sourceMappingURL=style.css.map */

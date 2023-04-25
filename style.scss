@@ -44,6 +44,11 @@ ul {
   font-size: 2rem;
   font-weight: bolder;
 }
+.wrapper {
+  background: var(--body-bg);
+  min-height: 100vh;
+  color: var(--text-color);
+}
 // apply dark mode
 .dark-mode-checkbox:checked + .wrapper {
   --body-bg: var(--dark-bg);
@@ -231,4 +236,57 @@ body {
   }
 }
 
-//----------Section2 Banner
+//----------Section2 Banner---
+.section2 {
+  margin: 7rem 0;
+
+  .info-container {
+    max-width: 80%;
+    margin: auto;
+    padding: 2rem;
+    min-height: 7rem;
+    border: 2px solid var(--border-color);
+    border-radius: 100px;
+
+    justify-content: center;
+    align-items: center;
+
+    .info-lists {
+      width: 100%;
+      color: var(--text-color);
+      justify-content: space-around;
+      align-items: center;
+
+      .info-content {
+        .icon-container {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+          background: var(--color-yellow);
+
+          justify-content: center;
+          align-items: center;
+          color: white;
+
+          i {
+            font-size: 1.4rem;
+          }
+        }
+        span {
+          h5 {
+            font-weight: bolder;
+            letter-spacing: 2px;
+          }
+          p {
+            color: var(--color-yellow);
+          }
+        }
+      }
+      .info-divider {
+        width: 2px;
+        height: 35px;
+        background: grey;
+      }
+    }
+  }
+}
