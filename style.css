@@ -321,4 +321,33 @@ body {
 }
 .section3 .skills-container div i {
   font-size: 3rem;
+}
+
+.section4 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
+}
+.section4 .projects-container {
+  width: 100%;
+  padding: 3rem 2rem 0 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+.section4 .projects-container .project-card {
+  flex-direction: column;
+  box-shadow: 0 4px 12px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.section4 .projects-container .project-card .top img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+}
+.section4 .projects-container .project-card .bottom {
+  padding: 2rem;
+}
+.section4 .projects-container .project-card .bottom p:nth-child(1) {
+  font-weight: bolder;
 }/*# sourceMappingURL=style.css.map */
