@@ -161,4 +161,55 @@ body {
   .primary-header .right #check:checked ~ ul {
     left: calc(100% - 15rem);
   }
+}
+.section1 {
+  padding-top: 10rem;
+}
+.section1 .hero {
+  background: var(--color-yellow);
+  margin: 2rem auto 5rem auto;
+  width: 90vw;
+  padding: 0 2rem;
+  grid-template-areas: "left right";
+}
+.section1 .hero .left {
+  grid-area: left;
+  margin-top: -4rem;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .hero .left img {
+  height: 120%;
+}
+.section1 .hero .right {
+  grid-area: right;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+.section1 .hero .right div {
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.section1 .hero .right div .name {
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+}
+.section1 .hero .right div .tag {
+  font-size: 2.2rem;
+  color: white;
+}
+.section1 .hero .right button {
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2rem;
+  background: var(--color-dark);
+  color: white;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.section1 .hero .right button a i {
+  color: var(--color-yellow);
 }/*# sourceMappingURL=style.css.map */

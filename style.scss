@@ -74,7 +74,7 @@ body {
   }
 }
 
-//=========header
+//=========header------
 .primary-header {
   justify-content: space-between;
   align-items: center;
@@ -164,6 +164,68 @@ body {
       #check:checked ~ ul {
         left: calc(100% - 15rem);
         // left: 70%;
+      }
+    }
+  }
+}
+// ----Section1 Hero------------
+
+.section1 {
+  padding-top: 10rem;
+
+  .hero {
+    background: var(--color-yellow);
+    margin: 2rem auto 5rem auto;
+    width: 90vw;
+    padding: 0 2rem;
+
+    grid-template-areas: "left right";
+
+    .left {
+      grid-area: left;
+      margin-top: -4rem;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 120%;
+      }
+    }
+    .right {
+      grid-area: right;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 0.8rem;
+
+      div {
+        flex-direction: column;
+        gap: 0.6rem;
+
+        .name {
+          font-size: 4rem;
+          color: white;
+          font-weight: bold;
+        }
+        .tag {
+          font-size: 2.2rem;
+          color: white;
+        }
+      }
+      button {
+        border: none;
+        padding: 0.8rem 1.2rem;
+        border-radius: 2rem;
+        background: var(--color-dark);
+        color: white;
+        cursor: pointer;
+        margin: 1rem 0;
+
+        a {
+          i {
+            color: var(--color-yellow);
+          }
+        }
       }
     }
   }
