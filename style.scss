@@ -504,4 +504,18 @@ footer {
       }
     }
   }
+  // <!-- -------Go up------ -->
+}
+.goUp {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-yellow);
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
 }

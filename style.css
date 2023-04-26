@@ -506,4 +506,18 @@ footer .footer-container .socials ul {
   justify-content: center;
   align-items: center;
   padding: 0;
+}
+
+.goUp {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-yellow);
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
 }/*# sourceMappingURL=style.css.map */
