@@ -314,6 +314,7 @@ body {
     }
   }
 }
+
 // <!-------- projects section4-->
 
 .section4 {
@@ -364,7 +365,7 @@ body {
     padding: 7rem;
     justify-content: space-around;
     .left {
-      width: 30%;
+      width: 40%;
       padding: 0 2rem;
       img {
         width: 100%;
@@ -373,7 +374,7 @@ body {
 
     .right {
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: flex-start;
 
       width: 40%;

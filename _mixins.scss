@@ -57,6 +57,36 @@
         // }
       }
     }
+    .section5 {
+      .about-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+        justify-content: center;
+
+        .left {
+          width: 80% !important;
+        }
+
+        .right {
+          gap: 3rem;
+          align-items: center !important;
+
+          width: 80% !important;
+
+          h2 {
+            font-size: 3.5rem;
+          }
+
+          div {
+            &:nth-child(5) {
+              flex-direction: column;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
 
     @content; /* Placeholder for additional styles */
   }
