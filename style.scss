@@ -351,3 +351,75 @@ body {
     }
   }
 }
+
+// <!----------- about me section5-------->
+
+.section5 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
+
+  .about-container {
+    padding: 7rem;
+    justify-content: space-around;
+    .left {
+      width: 30%;
+      padding: 0 2rem;
+      img {
+        width: 100%;
+      }
+    }
+
+    .right {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      width: 40%;
+
+      h2 {
+        font-size: 3.5rem;
+      }
+      .connect {
+        a {
+          color: var(--link-color);
+          text-decoration: underline;
+        }
+      }
+      p {
+        &:nth-child(4) {
+          font-weight: 600;
+        }
+      }
+      div {
+        &:nth-child(5) {
+          flex-direction: column;
+
+          .tag {
+            font-weight: 600;
+          }
+        }
+        div {
+          &:nth-child(2) {
+            flex-direction: row;
+            gap: 3rem;
+
+            span {
+              padding: 0.5rem 0.7rem;
+              border-radius: 1rem;
+
+              &:hover {
+                background: rgba(128, 128, 128, 0.709);
+                cursor: pointer;
+                color: white;
+                box-shadow: 0 0 10px grey;
+                transition: all 0.5s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

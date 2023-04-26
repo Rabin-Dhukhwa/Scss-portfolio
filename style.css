@@ -350,4 +350,59 @@ body {
 }
 .section4 .projects-container .project-card .bottom p:nth-child(1) {
   font-weight: bolder;
+}
+
+.section5 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7rem;
+}
+.section5 .about-container {
+  padding: 7rem;
+  justify-content: space-around;
+}
+.section5 .about-container .left {
+  width: 30%;
+  padding: 0 2rem;
+}
+.section5 .about-container .left img {
+  width: 100%;
+}
+.section5 .about-container .right {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 40%;
+}
+.section5 .about-container .right h2 {
+  font-size: 3.5rem;
+}
+.section5 .about-container .right .connect a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+.section5 .about-container .right p:nth-child(4) {
+  font-weight: 600;
+}
+.section5 .about-container .right div:nth-child(5) {
+  flex-direction: column;
+}
+.section5 .about-container .right div:nth-child(5) .tag {
+  font-weight: 600;
+}
+.section5 .about-container .right div div:nth-child(2) {
+  flex-direction: row;
+  gap: 3rem;
+}
+.section5 .about-container .right div div:nth-child(2) span {
+  padding: 0.5rem 0.7rem;
+  border-radius: 1rem;
+}
+.section5 .about-container .right div div:nth-child(2) span:hover {
+  background: rgba(128, 128, 128, 0.709);
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 10px grey;
+  transition: all 0.5s;
 }/*# sourceMappingURL=style.css.map */
