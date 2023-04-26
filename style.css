@@ -337,8 +337,9 @@ body {
 
 .section3 {
   width: 100%;
-  padding-top: 4rem;
+  padding-top: 8rem;
   justify-content: center;
+  align-items: center;
 }
 .section3 .skills-container {
   justify-content: space-evenly;
@@ -441,7 +442,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 7rem;
 }
 .section6 .socials {
   padding: 6rem;
@@ -481,4 +482,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  background: #000;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+footer .footer-container {
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+footer .footer-container .links,
+footer .footer-container .socials {
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-container .links ul,
+footer .footer-container .socials ul {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */

@@ -239,7 +239,6 @@ body {
 //----------Section2 Banner---
 .section2 {
   margin: 7rem 0;
-
   .info-container {
     max-width: 80%;
     margin: auto;
@@ -294,8 +293,9 @@ body {
 
 .section3 {
   width: 100%;
-  padding-top: 4rem;
+  padding-top: 8rem;
   justify-content: center;
+  align-items: center;
   // border: 2px solid black;
 
   .skills-container {
@@ -430,7 +430,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 7rem;
 
   .socials {
     padding: 6rem;
@@ -474,6 +474,33 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+    }
+  }
+}
+
+// <!------------- footer  ---------->
+
+footer {
+  background: #000;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  margin-top: 3rem;
+
+  .footer-container {
+    justify-content: space-around;
+    margin-bottom: 4rem;
+
+    .links,
+    .socials {
+      flex-direction: column;
+      align-items: center;
+      ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
       }
     }
   }
