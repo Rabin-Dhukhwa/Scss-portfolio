@@ -424,3 +424,57 @@ body {
     }
   }
 }
+
+// <!----------- getting touch section6-->
+.section6 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+
+  .socials {
+    padding: 6rem;
+    width: 100%;
+    justify-content: space-between;
+
+    i {
+      font-size: 4rem;
+      &:nth-child(1) {
+        color: blue;
+      }
+
+      &:nth-child(2) {
+        color: #6e5494;
+      }
+      &:nth-child(3) {
+        color: rgba(0, 221, 255, 0.793);
+      }
+
+      &:nth-child(4) {
+        color: red;
+      }
+    }
+  }
+  .email-section {
+    background-color: var(--border-color);
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    color: var(--body-bg);
+
+    .email {
+      justify-content: center;
+      align-items: center;
+
+      .send {
+        width: 3rem;
+        height: 3rem;
+        background: var(--color-yellow);
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

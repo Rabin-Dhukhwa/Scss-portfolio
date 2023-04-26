@@ -137,6 +137,18 @@
         }
       }
     }
+    .section6 {
+      .socials {
+        padding: 3rem !important;
+
+        i {
+          font-size: 3rem !important;
+        }
+      }
+      .email-section {
+        padding: 0.5rem 1rem !important;
+      }
+    }
     @content;
   }
 }
